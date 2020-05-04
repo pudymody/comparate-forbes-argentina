@@ -1,0 +1,19 @@
+{
+  "name": "@pudymody/experiment-compare-to-forbes-argentina",
+  "version": "1.0.0",
+  "description": "Experimento para comparar el sueldo ingresado contra el top 50 de forbes argentina",
+  "main": "tailwind.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-postcss": "^8.0.0",
+    "tailwindcss": "^1.4.4"
+  },
+  "scripts": {
+    "dev": "gulp",
+    "build": "tailwindcss build ./src/style.css -o ./docs/output.css && cp src/index.html docs/index.html && cp src/imagenes docs/imagenes;"
+  },
+  "author": "Federico Scodelaro <federicoscodelaro@gmail.com> (http://pudymody.github.io/)",
+  "license": "GPL-3.0"
+}

@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.w-7ch {
+	width: 7ch;
+}
+
+section, .section {
+	@apply min-h-screen flex flex-col items-center justify-center py-4;
+	scroll-snap-align: start;
+}
+
+.section, section:nth-child(2n+1){
+	@apply bg-gray-200 text-gray-900;
+}
